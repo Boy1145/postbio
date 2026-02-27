@@ -1,45 +1,65 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+<html>
+    
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        <link rel="stylesheet" type="text/css" href="style.css" />
+   
+        <title>Bo's Gallery</title>
+        <link rel="stylesheet" type="text/css" href="fontInfo.css" />
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Gallery</h1>
-        <nav class="featureBlock">
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
-            
-        </nav>
-        <p>This is my Gallery page.</p>
-        
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+          <h1>Gallery</h1>   
+        <h2>Digit Program Project</h2>
         
         <div class="side-by-side">
-            <p>Go back to my <a href="index.html">main page</a>.</p>
             <figure>
-                <img src="images/llama_mp.jpg" />
-                <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
-                    Picchu, on the Inca Trail.</figcaption>
+                <img src="images/DearData.jpg" alt="DearData Project in Digit" />
+                <figcaption>This project mainly documents things we do frequently in our daily lives without often noticing or intentionally recording them. My chosen theme is my body's primary postures (lying down, sitting, and standing) throughout the week.</figcaption>
             </figure>
-           
+            
+            <figure>
+                <img src="images/Timemapper.png" alt="Timemapper Project in Digit" />
+                <figcaption>This project primarily involves creating a timeline using a website and displaying the locations on a world map. My project focuses on the history of Apple Inc. See here for <a href="https://timemapper.okfnlabs.org/anon/athhgi-history-of-apple-inc#0">details</a></figcaption>
+            </figure>
         </div>
-        <footer class="featureBlock">
-            <p>Shout out to the w3c community, and the developers of markup languages, and the oXygen XML editor!</p>
-            <p>We are . . . Digit at Penn State Behrend!</p>
-        </footer>
+        
+        <h2>Circuit Design Project</h2>
+        <p class="center-text large footer-links">For this project, I designed a circuit diagram and made it work using actual components. See details on <a href="Resume.html">Resume page</a></p>
+        <div class="side-by-side">
+            <figure>
+                <img src="images/Oscilloscope-Screen-Capture.png" alt="Oscilloscope Screen Capture" />
+                <figcaption>The Oscilloscope Screen Capture result for the project</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="images/Circuit-in-Pspice.jpg" alt="Circuit Simulation on Pspice" />
+                <figcaption>The Circuit Simulation on Pspice for the project</figcaption>
+            </figure>
+        </div>
+        
+        <h2>Game Reward System</h2>
+        <p class="center-text large footer-links">For this project, I helped to this system using java. See details on <a href="Resume.html">Resume page</a></p>
+        <div class="side-by-side">
+            <figure>
+                <img src="images/ClassDiagram.jpg" alt="Class Diagram" />
+                <figcaption>The Class Diagram for the project</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="images/Javacode.jpg" alt="Java Code Info" />
+                <figcaption>Parts of the Java code</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="images/PlayerInterface.jpg" alt="Player Interface" />
+                <figcaption>Player Interface of this system</figcaption>
+            </figure>
+        </div>
     </body>
 </html>
