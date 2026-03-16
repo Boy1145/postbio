@@ -7,6 +7,7 @@ body {
 	background-color: lightblue;
 	margin: 0; 
 	padding: 0;
+	padding-bottom: 80px;
 	}
 p { 
 	margin-top: 0; 
@@ -64,6 +65,7 @@ abbr {
 ul.navbar {
   background-color: #333;
   display: flex;
+  justify-content: center;  
   list-style: none;
   margin: 0;
   padding: 0;
@@ -75,7 +77,7 @@ ul.navbar li {
 
 ul:not(.navbar) {
   list-style-type: disc;
-  padding-left: 40px;   /* space at the beginning */
+  padding-left: 40px;   
   margin-top: 10px;
   background: none;
 }
@@ -120,7 +122,6 @@ li a:hover {
 .black-link {
   color: black;
 }
-/*  Gallery display styling */
 body#gallery {
    background: LightSteelBlue;
 }
@@ -140,4 +141,45 @@ img {
 .featureBlock {
     background-color:pink;
     font-size: smaller;
+}
+.center-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background-white {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.textcenter-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: flex-start;
+}
+.space{
+    width: 500px;
+}
+.space .large{
+    white-space: nowrap;
+}
+.volunteer-container{
+    display:flex;
+    justify-content:center;
+    gap:120px;
+    align-items:flex-start;
+}
+
+.volunteer-column{
+    width:500px;
+}
+
+.volunteer-column ul{
+    padding-left:25px;
+}
+
+.volunteer-column li{
+    word-wrap:break-word;
+    line-height:1.6;
 }
