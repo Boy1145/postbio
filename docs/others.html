@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Others</title>
+        <link rel="stylesheet" type="text/css" href="fontInfo.css" />
+        <link rel="icon" type="image/jpg" href="images/flying%20snow.jpg">
+    </head>
+    <body>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="TextAnalysis.html">Text Analysis</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+        
+        <ul class="navbar">
+            <li>
+                <a href="#" onclick="document.getElementById('viewer').style.display='none'">
+                    Close
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" onclick="openStory('Story-DSofU.html')">
+                    Story: The Dark Side of the University
+                </a>
+            </li>
+        </ul>
+        
+        <!-- iframe window (hidden at start) -->
+        <div id="viewer" 
+            style="display:none; 
+            max-width:1000px; 
+            margin:40px auto; 
+            padding:20px; 
+            text-align:center;">
+            
+            <iframe id="frame"
+                style="width:100%; 
+                aspect-ratio:16/9; 
+                border:5px solid black; 
+                display:block;">
+            </iframe>
+            
+        </div>
+        <script>
+function openStory(link) {
+  var viewer = document.getElementById('viewer');
+  var frame = document.getElementById('frame');
+
+  frame.src = link;        // load new story
+  viewer.style.display = 'block';  // show iframe
+}
+</script>
+        
+    </body>
+</html>
