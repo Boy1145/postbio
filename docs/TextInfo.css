@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+
 ul.navbar {
   background-color: #333;
   display: flex;
@@ -33,18 +34,22 @@ figcaption {font-size:smaller; font-style:italic; color:papayawhip;
 text-align:left; padding-left:1em; padding-right:1em;}
 img {
     width: 90%;
-    max-width: 400px;
+    max-width: none;
 }
 
 p {
   margin-left: 20px;
 }
-
-h2{
-  text-align: center;
-}
-
 h1{
   text-align: center;
 }
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
 
+h4{
+  padding: 20px;
+}

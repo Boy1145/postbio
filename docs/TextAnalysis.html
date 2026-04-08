@@ -3,6 +3,7 @@
     <head>
         <title>Text Analysis</title>
         <link rel="stylesheet" type="text/css" href="TextInfo.css" />
+        <link rel="icon" type="image/jpg" href="images/flying%20snow.jpg">
     </head>
     <body>
         <ul class="navbar">
@@ -11,30 +12,49 @@
         </ul>
         <h1>Organize Text Corpora for Comparative Analysis</h1>
         <h2>Info</h2>
-        <p>As indicated in the title, I will select two texts and/or collections of texts for analysis and comparison.</p>
-            
-        <p>I have chosen "jcb.txt" and "web.txt"—drawn from the course materials—to serve as the basis for this comparison and analysis.</p>
-        <h3>Commonly used Words</h3>
+           
+        <p>I have chosen "<a href="TextAn/1945-jap.txt">1945-jap.txt</a>" and "<a href="TextAn/1945-ger.txt">1945-ger.txt</a>", which are from <a href="https://github.com/nhammer514/textfiles-politics/tree/main/politicalTextFiles">Unicode converted files on 80s and 90s conspiracy theories and politics</a> in the <a href="https://newtfire.org/courses/introDH/AntConAssign.html">project description website</a>, to serve as the basis for this comparison and analysis.</p>
+        <p>Both documents are instruments of surrender signed by the respective nations at the conclusion of World War II in 1945—one being Japan's instrument of surrender (1945-Jap.txt) and the other, Germany's (1945-Ger.txt). In my view, these two documents are eminently suitable for comparative analysis; primarily because both nations were defeated powers sharing the same ideology during the war, and both documents serve as formal instruments of surrender.</p>
+        
+        <h3>Genral Commonly used Words Using Voyant</h3>
         <div class="side-by-side">
             <figure>
-                <img src="images/jcbWords.png" alt="Common Words in jcb text file" />
-                <figcaption>Common words found in jcb text file</figcaption>
+                <img src="images/CW-Ger.png" alt="Common Words in 1945-ger.txt file" />
+                <figcaption>Common words found in 1945-ger.txt file</figcaption>
             </figure>
             <figure>
-                <img src="images/webWords.png" alt="Common Words in web text file" />
-                <figcaption>Common words found in web text file</figcaption>
+                <img src="images/CW-Jap.png" alt="Common Words in 1945.jap.txt file" />
+                <figcaption>Common words found in 1945-jap.txt file</figcaption>
             </figure>
         </div>
-        <h3>Word Trends</h3>
+        <h4>Trend Analysis</h4>
+        <p>From the visualization of common terms shared between the two documents, we can observe that the most frequently occurring word in both instances refers to the respective nation itself. There are also directional descriptors; for instance, the word "north" appears very frequently in the German surrender document, whereas "south" is more prevalent in the Japanese surrender document.</p>
+        <p>Certain nouns—such as "behalf," "command," "surrender," and "forces"—occur with a remarkably high frequency in both texts. As illustrated in the visualization, "surrender" and "forces" account for a relatively larger proportion of the vocabulary in the Japanese surrender document, while "command" features more prominently in the German surrender document; the word "behalf," however, appears with roughly equal frequency in both documents.</p>
+        
+        <h3>Genral Word Trends Using Voyant</h3>
         <div class="side-by-side">
             <figure>
-                <img src="images/Trendjcb.png" alt="Word Trends in jcb text file" />
-                <figcaption>Word Trends in jcb text file</figcaption>
+                <img src="images/CT-ger.png" alt="Word Trends in 1945-ger.txt file" />
+                <figcaption>Word Trends in 1945-ger.txt file</figcaption>
             </figure>
             <figure>
-                <img src="images/Trendweb.png" alt="Word Trends in web text file" />
-                <figcaption>Word Trends in web text file</figcaption>
+                <img src="images/CT-jap.png" alt="Word Trends in 1945.jap.txt file" />
+                <figcaption>Word Trends in 1945-jap.txt file</figcaption>
             </figure>
         </div>
+        
+        <h3>Genral Word Phases Using Voyant</h3>
+        <div class="side-by-side">
+            <figure>
+                <img src="images/CP-ger.png" alt="Word Phases in 1945-ger.txt file" />
+                <figcaption>Common Word Phases in 1945-ger.txt file</figcaption>
+            </figure>
+            <figure>
+                <img src="images/CP-jap.png" alt="Word Phases in 1945.jap.txt file" />
+                <figcaption>Common Word Phases in 1945-jap.txt file</figcaption>
+            </figure>
+        </div>
+        <h4>Trend Analysis</h4>
+        <p>First, regarding phrase length, I limited the range to between 5 and 9 words, while the count is presented in descending order. In the German documents, numerous phrases repeated twice were not even listed (due to screen size constraints). It is evident that the probability of reusing such longer phrases is significantly higher in the German documents compared to the Japanese ones.</p>
     </body>
 </html>
